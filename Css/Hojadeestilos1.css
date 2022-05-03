@@ -1,0 +1,51 @@
+body {
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+    margin-left: 2.5cm;
+    margin-right: 2.5cm;
+}
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+#navegador il{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+/* Estilo de cada enlace/apartado del menu */
+#navegador li a { 
+    padding: 2px 7px 2px 7px;
+    color: rgb(122, 207, 228);
+    background-color: #eeeeee;
+    text-decoration: none;
+ }
+/* Estilo de cada enlace/apartado del menu al pasar el ratón por encima*/
+ #navegador li a:hover{
+    background-color: rgb(122, 207, 228);
+    color: black;
+ }
+
+p{ text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+h1{text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+h2{text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+h3{text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif}
+
+table{text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+nav{text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aqua;
+    }
+.boton{size: 20px;
+        background-color: rgb(127, 255, 244);}
